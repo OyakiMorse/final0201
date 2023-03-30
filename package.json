@@ -2,14 +2,18 @@
   "name": "0201",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://oyakimorse.github.io/0201/",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
-    "type-check": "vue-tsc --noEmit"
+    "type-check": "vue-tsc --noEmit",
+    "deploy": "vite build && gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "moment": "^2.29.4",
     "node-sass": "^8.0.0",
     "vue": "^3.2.47",

@@ -4,7 +4,7 @@
       <main class="profile">
         <div class="profile__info">
           <div class="profile__info-img">
-            <img src="/img/photo.png" alt="profile-picture" />
+            <img src="@/assets/img/photo.png" alt="profile-picture" />
           </div>
 
           <div class="profile__info-about">
@@ -74,12 +74,12 @@
 
             <div class="reviews__header-icons">
               <div class="reviews__icon">
-                <img src="/img/like.svg" alt="comment" />
+                <img src="@/assets/img/like.svg" alt="comment" />
                 131
               </div>
 
               <div class="reviews__icon">
-                <img src="/img/comment.svg" alt="comment" />
+                <img src="@/assets/img/comment.svg" alt="comment" />
                 {{ reviews.length }}
               </div>
             </div>
