@@ -12,7 +12,7 @@
             <p class="profile__info-position">Sales Manager</p>
 
             <p class="profile__info-text">
-              I will find the best offers for you. <br />
+              I will find the best offers for you.<br />
               My services are absolutely free.
             </p>
           </div>
